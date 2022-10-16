@@ -57,3 +57,4 @@ if __name__ == "__main__":
     directory = os.getcwd()
     #download_img(directory, 'dog')
     download_img(directory, 'cat')
+#leloctho2435443
