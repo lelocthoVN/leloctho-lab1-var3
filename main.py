@@ -21,7 +21,6 @@ def get_image(image_url, name, index):
     saver = open(os.path.join(f"{name}/{str(index).zfill(4)}.jpg"), "wb")
     saver.write(picture.content)
     saver.close()
-
 def download_img(path, key):
     """
     :param path: путь к папке, в которой сохранено изображение
